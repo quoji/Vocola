@@ -1,0 +1,11 @@
+First = {{}{"\$"}{1}{}};
+Second = {{}{"\$"}{2}{}};
+Third = {{}{"\$"}{3}{}};
+Serial = "1..10 ";
+Stop = back() {";"};
+New Header = new() save() w3() ".vch" {ctrl+Left};
+Control = "{ctrl+}"{Left};
+Shift = "{shift+}"{Left};
+Alt = "{alt+}"{Left};
+Laugh = {ctrl+1};
+Rank = {ctrl+2};

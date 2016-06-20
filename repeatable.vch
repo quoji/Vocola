@@ -1,0 +1,13 @@
+<repeatable> :=
+(	  Lack = Lack()
+	| Rack = Rack()
+	| Lift = lift()
+	| Drop = Drop()
+	| Wipe = replace()
+	| Hop = Hop()
+	| <direction>
+	| Multi = {ctrl+d}
+	| Deal = Deal()
+);
+
+

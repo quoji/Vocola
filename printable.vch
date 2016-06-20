@@ -1,0 +1,57 @@
+<printable> := (
+       space             = " "
+     |  !  | bang        =  !
+     | '"' | quote       = '"'
+     | "#" | pound       = "#"
+     | "$" | dollar      = "\$"
+     |  %  | percent     =  %
+     |  &
+     | "'" | apostrophe  = "'" | single = "'"
+     | "(" | paren       = "("
+     | ")" | close paren = ")"
+     |  *  | asterisk    =  *  | star = *
+     |  +  | plus        =  +
+     | ","
+     |  -  | minus       =  -
+     |  .  | dot         =  .
+     |  /
+
+          # digits, spelled-out to work around DNS 11 bug with <_anything>:
+     | zero=0 | one=1   | two=2   | three=3 | four=4 | five=5
+     | six=6  | seven=7 | eight=8 | nine=9
+
+     | ":"
+     | ";" | semi       = ";"
+     | "<" | lit       = "<"
+     | "=" | equal      = "=" | equals = "="
+     | ">" | grit = ">"
+     |  ?  | question   =  ?
+     |  @
+
+     | Alpha    = a
+     | Bravo    = b
+     | Charlie  = c
+     | Delta    = d
+     | echo     = e
+     | foxtrot  = f
+     | golf     = g
+     | Hotel    = h
+     | India    = i
+     | Juliett  = j
+     | kilo     = k
+     | Lima     = l
+     | Mike     = m
+     | November = n
+     | Oscar    = o
+     | Papa     = p
+     | Quebec   = q
+     | Romeo    = r
+     | Sierra   = s
+     | tango    = t
+     | uniform  = u
+     | Victor   = v
+     | whiskey  = w
+     | x-ray    = x
+     | Yankee   = y
+     | Zulu     = z
+);

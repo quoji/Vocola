@@ -1,0 +1,8 @@
+new() := {ctrl+n};
+save() := {ctrl+s};
+copy() := {ctrl+c};
+cut() := {ctrl+x};
+paste() := {ctrl+v};
+Top = {ctrl+home};
+Bottom = {ctrl+end};
+Up = {pageup};

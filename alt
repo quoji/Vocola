@@ -1,0 +1,35 @@
+# Global voice commands
+
+$include folders.vch;
+OK = {enter};
+Cancel = {esc};
+Save = {ctrl+s};
+Close = {alt+F4};
+
+dictate anything <_anything> = $1;
+
+
+Switch = {alt +tab};
+
+Chrome = {Win+1};
+Sublime = {Win+4};
+
+paste() := {ctrl+v};
+Top = {ctrl+home};
+Bottom = {end};
+Up = {pageup};
+Penguin = {ctrl+home} Wait(500){f} Wait(500){a} Wait(100){d} Wait(2000){f} Wait(200){m} Wait(200){f} Wait(200){s_2};
+Find = {ctrl+f};
+Paste over = {ctrl+a}paste();
+Fill out 1..10 = Repeat($1, {tab}paste());
+Kansas = paste();
+
+
+Folder <folder> = {Alt+d} $1 {Enter};
+
+$if Open | New | Save | File | Attachment | Browse | Directory;
+  Folder <folder> = $1\{Enter};
+$end
+
+
+Highlight <_textInDocument> = HearCommand("select $1");

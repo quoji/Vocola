@@ -1,0 +1,7 @@
+<folder> :=
+ ( Home              = C:\Users\Stephen
+ | Downloads         = C:\Users\Stephen\Downloads
+ | Pictures          = C:\Users\Stephen\Pictures
+ | Program Files     ="C:\Program Files"
+ | Temp              = C:\Temp
+ );
